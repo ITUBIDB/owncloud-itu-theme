@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<info>
+	<id>owncloud-itu-theme</id>
+	<name>ITU Kovan owncloud theme</name>
+	<description>ITU Kovan owncloud theme</description>
+	<licence>AGPL</licence>
+	<author>Semih Serhat Karakaya</author>
+	<version>1.0.0</version>
+	<types>
+		<theme/>
+	</types>
+	<dependencies>
+		<owncloud min-version="10.0" max-version="10.1" />
+	</dependencies>
+	<namespace>Theme</namespace>
+</info>
