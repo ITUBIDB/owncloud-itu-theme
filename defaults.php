@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'İTÜ/Kovan';
+		return 'İTÜKOVAN';
 	}
 
 	/**
@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'İTÜ/Kovan';
+		return 'İTÜKOVAN';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return '';
+		return 'İTÜ<strong>KOVAN</strong>';
 	}
 
 	/**
@@ -97,7 +97,15 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'İTÜ BİDB';
+		return 'İTÜ<strong>BİDB</strong>';
+	}
+
+	/**
+	 * Returns entity (e.g. company name) website - used for footer, copyright
+	 * @return string entity name
+	 */
+	public function getEntityWebsite() {
+		return 'https://bidb.itu.edu.tr';
 	}
 
 	/**
@@ -105,7 +113,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'İTÜ/Kovan - Bulut Depolama Sistemi';
+		return 'İTÜ<strong>KOVAN</strong> - Bulut Depolama Sistemi';
 	}
 
 	/**
@@ -121,10 +129,8 @@ class OC_Theme {
 	 * @return string short footer
 	 */
 	public function getShortFooter() {
-		$footer = '© 2018 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+		return '<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
 			'<br/>' . $this->getSlogan();
-
-		return $footer;
 	}
 
 	/**
@@ -132,10 +138,8 @@ class OC_Theme {
 	 * @return string long footer
 	 */
 	public function getLongFooter() {
-		$footer = '© 2018 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+		return '<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
 			'<br/>' . $this->getSlogan();
-
-		return $footer;
 	}
 
 	public function buildDocLinkToKey($key) {
@@ -150,5 +154,4 @@ class OC_Theme {
 	public function getMailHeaderColor() {
 		return '#002855';
 	}
-
 }
