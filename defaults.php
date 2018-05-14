@@ -130,7 +130,7 @@ class OC_Theme {
 	 */
 	public function getShortFooter() {
 		return '<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
-			'<br/>' . $this->getSlogan();
+			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>';
 	}
 
 	/**
@@ -139,7 +139,7 @@ class OC_Theme {
 	 */
 	public function getLongFooter() {
 		return '<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
-			'<br/>' . $this->getSlogan();
+			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>';
 	}
 
 	public function buildDocLinkToKey($key) {
