@@ -129,8 +129,20 @@ class OC_Theme {
 	 * @return string short footer
 	 */
 	public function getShortFooter() {
-		return '<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
-			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>';
+		return
+			'<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
+			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>' .
+			'<div id="clientsbox" class="clientsbox">
+				<a href="http://ftp.itu.edu.tr/Utility/Kovan/" rel="noreferrer" target="_blank">
+					<img src="/core/core/img/desktopapp.svg" alt="Desktop client">
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=tr.edu.itu.itukovan" rel="noreferrer" target="_blank">
+					<img src="/core/core/img/googleplay.png" alt="Android app">
+				</a>
+				<a href="https://itunes.apple.com/tr/app/itu-kovan/id1101081766" rel="noreferrer" target="_blank">
+					<img src="/core/core/img/appstore.svg" alt="iOS app">
+				</a>
+			</div>';
 	}
 
 	/**
@@ -138,8 +150,20 @@ class OC_Theme {
 	 * @return string long footer
 	 */
 	public function getLongFooter() {
-		return '<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
-			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>';
+		return
+			'<a href="'.$this->getEntityWebsite().'" target="_blank\">'.$this->getEntity().'</a>'.
+			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>' .
+			'<div id="clientsbox" class="clientsbox">
+				<a href="http://ftp.itu.edu.tr/Utility/Kovan/" rel="noreferrer" target="_blank">
+					<img src="/core/core/img/desktopapp.svg" alt="Desktop client">
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=tr.edu.itu.itukovan" rel="noreferrer" target="_blank">
+					<img src="/core/core/img/googleplay.png" alt="Android app">
+				</a>
+				<a href="https://itunes.apple.com/tr/app/itu-kovan/id1101081766" rel="noreferrer" target="_blank">
+					<img src="/core/core/img/appstore.svg" alt="iOS app">
+				</a>
+			</div>';
 	}
 
 	public function buildDocLinkToKey($key) {

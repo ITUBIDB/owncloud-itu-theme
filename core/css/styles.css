@@ -48,6 +48,26 @@
 	margin: 0px auto !important;
 }
 
+/* add client logos to footer */
+#body-login .wrapper {
+	min-height: 100%;
+	margin: 0 auto -130px;
+	width: 300px;
+}
+
+.clientsbox img {
+	height: 60px;
+	background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+	.clientsbox img {
+		height: 0px;
+		visibility: hidden;
+	}
+}
+/* end of add client logos to footer*/
+
 /* primary action button, use sparingly */
 /* header color as border, brighter shade again, here as background */
 .primary,
