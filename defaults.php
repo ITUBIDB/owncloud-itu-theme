@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'İTÜ<strong>BİDB</strong>';
+		return 'İTÜ/BİDB';
 	}
 
 	/**
