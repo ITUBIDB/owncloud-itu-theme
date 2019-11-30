@@ -155,13 +155,13 @@ class OC_Theme {
 			'<br/>' . '<a href="'.$this->getBaseUrl().'">'.$this->getSlogan().'</a>' .
 			'<div id="clientsbox" class="clientsbox">
 				<a href="http://ftp.itu.edu.tr/Utility/Kovan/" rel="noreferrer" target="_blank">
-					<img src="/core/core/img/desktopapp.svg" alt="Desktop client">
+					<img src="/core/img/desktopapp.svg" alt="Desktop client">
 				</a>
 				<a href="https://play.google.com/store/apps/details?id=tr.edu.itu.itukovan" rel="noreferrer" target="_blank">
-					<img src="/core/core/img/googleplay.png" alt="Android app">
+					<img src="/core/img/googleplay.png" alt="Android app">
 				</a>
 				<a href="https://itunes.apple.com/tr/app/itu-kovan/id1101081766" rel="noreferrer" target="_blank">
-					<img src="/core/core/img/appstore.svg" alt="iOS app">
+					<img src="/core/img/appstore.svg" alt="iOS app">
 				</a>
 			</div>';
 	}
