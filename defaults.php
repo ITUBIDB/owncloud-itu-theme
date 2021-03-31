@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'İTÜKOVAN';
+		return 'İTÜ/KOVAN';
 	}
 
 	/**
@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'İTÜKOVAN';
+		return 'İTÜ/KOVAN';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return 'İTÜ<strong>KOVAN</strong>';
+		return 'İTÜ/<strong>KOVAN</strong>';
 	}
 
 	/**
@@ -113,7 +113,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'İTÜ<strong>KOVAN</strong> - Bulut Depolama Sistemi';
+		return 'İTÜ/KOVAN - Bulut Depolama Sistemi';
 	}
 
 	/**
